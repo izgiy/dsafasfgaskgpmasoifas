@@ -1,1 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+*,*:before,*:after{
+-moz-box-sizing:border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+body{color:gold;
+text-align: center;
+font-size: 35px;
+text-shadow: 1px 1px 1px rgb(117, 117, 218);
+font-family: Monotype Corsiva;
+word-spacing: 10px;
+line-height: 50px;
+font-weight: 700;
+background: black;
+}
+.health{text-decoration: line-through;
+opacity: 50%;}
+.health::before{content: '';}
+.bio{text-decoration: underline rgb(255, 217, 0);}
+input{border: solid black;
+box-shadow: 0 0 7px black;
+padding: 10px;
+margin: 30px;}
+textarea{font-size: 25px;
+    width: 200px;
+    height: 75px;
+    padding: 10px;
+    border: solid 1px;
+    box-shadow: 0 0 15px black;}
+.submit{display: inline-block;}
+.reset{display: inline-block;}
+.title{background: url(http://img10.joyreactor.cc/pics/post/full/art-девушка-art-красивые-картинки-Fantasy-4655782.jpeg) center /cover no-repeat;
+}
+.window{background-attachment: fixed;
+background-image: url(https://kartinkin.net/uploads/posts/2021-07/1626839187_27-kartinkin-com-p-fon-travka-i-nebo-krasivo-27.jpg);}
+button{font-size: 28px;
+padding: 10px;
+box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)}
+button:hover{background:silver}
+button:active{box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);}
+p:last-child{color: rgb(0, 0, 0);}
+p:nth-child(1){color: rgb(255, 252, 71);}
+p::first-line{color: rgb(255, 230, 0);}
+p::first-letter{color:red;}
+p::before{content: '\1F525';}
+
 
